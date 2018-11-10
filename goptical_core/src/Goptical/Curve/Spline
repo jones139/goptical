@@ -1,0 +1,10 @@
+
+#include "Goptical/Curve/spline.hh"
+#include "Goptical/Curve/spline.hxx"
+
+namespace Goptical {
+  namespace Curve {
+    using _Goptical::Curve::Spline;
+  }
+}
+
