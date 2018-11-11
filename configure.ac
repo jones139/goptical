@@ -84,7 +84,6 @@ ac_configure_args="$ac_configure_args --with-goptical-core-lib=$abs_builddir/gop
 AC_CONFIG_FILES([
   Makefile
   doc/Makefile
-  doc/texinfo/Makefile
   examples/Makefile
   examples/simple_refractor/Makefile
   examples/hierarchical_design/Makefile
