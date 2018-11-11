@@ -25,5 +25,5 @@ EXTRA_DIST += catenary_spot.png coordinates.png dist_patterns.png       \
         tessar_spot_intensity.png tessar_spot.png                       \
         tessar_transverse.png
 
-SUBDIRS = texinfo
-
+#SUBDIRS = texinfo
+SUBDIRS = 

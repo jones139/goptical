@@ -23,6 +23,7 @@
 */
 
 #include "config.hh"
+#include <unistd.h>
 
 #include <Goptical/Io/Renderer>
 #include <Goptical/Io/RendererViewport>

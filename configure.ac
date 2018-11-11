@@ -14,18 +14,19 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 AC_INIT(goptical, 1.0)
+AC_CONFIG_SRCDIR([goptical_core])
 
 AC_CONFIG_AUX_DIR(build-aux)
 AC_CONFIG_MACRO_DIR(build-aux)
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE()
 
 AC_PROG_CXX
 AC_DISABLE_STATIC
 AC_PROG_LIBTOOL
 AC_LANG(C++)
 
-CXXFLAGS="$CXXFLAGS -Wall "
+CXXFLAGS="$CXXFLAGS -Wall -fpermissive"
 
 AC_ARG_ENABLE(debug, AC_HELP_STRING(--enable-debug, [Enable debug and asserts]), enable_debug=yes)
 if test "x$enable_debug" = "xyes" ; then

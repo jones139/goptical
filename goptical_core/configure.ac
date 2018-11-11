@@ -29,7 +29,7 @@ AC_PROG_LIBTOOL
 
 AC_LANG(C++)
 
-CXXFLAGS="$CXXFLAGS -Wall "
+CXXFLAGS="$CXXFLAGS -fpermissive -Wdeprecated"
 
 AC_ARG_ENABLE(tests, AC_HELP_STRING(--disable-tests, [Disable compilation of tests]), disable_tests=yes)
 AM_CONDITIONAL(TESTS, test x$disable_tests != xyes)
