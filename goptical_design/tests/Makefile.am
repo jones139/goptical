@@ -13,8 +13,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-LDADD = $(top_builddir)/src/libgoptical_design.la
-LIBADD = $(GOPTICAL_CORE_LIB)
+LDADD = $(top_builddir)/src/libgoptical_design.la $(GOPTICAL_CORE_LIB)
+LIBADD = 
 
 AM_CPPFLAGS = -I$(top_srcdir)/src
 

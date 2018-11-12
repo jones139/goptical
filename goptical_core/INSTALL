@@ -12,6 +12,20 @@ without warranty of any kind.
 Basic Installation
 ==================
 
+GJ Needed the following:
+  autoreconf -fvi
+  autoconf
+  ./configure
+  make
+NOTE:  Make fails on goptical_design/tests but doing:
+  cd examples
+  make
+produces working executables.
+So I'm not sure why the test fails......
+
+  
+
+
    Briefly, the shell command './configure && make && make install'
 should configure, build, and install this package.  The following
 more-detailed instructions are generic; see the 'README' file for
